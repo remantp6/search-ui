@@ -1,0 +1,63 @@
+.input-group {
+  width: 290px;
+  background-color: whitesmoke;
+}
+.input-group-wrapper {
+  display: flex;
+  align-items: center;
+  line-height: 55px;
+  padding-left: 12px;
+}
+.input-group-wrapper i {
+  font-size: 24px;
+}
+.input-group-wrapper input {
+  border: none;
+  background-color: transparent;
+  margin: 0 2px;
+  caret-color: transparent;
+  cursor: pointer;
+}
+.input-group-wrapper input:focus {
+  outline: none !important;
+}
+input[type="text"]::placeholder {
+  font-size: 20px;
+}
+button {
+  border: 1px solid gray;
+  color: gray;
+  line-height: 30px;
+}
+
+.popup-content {
+  background-color: whitesmoke;
+  padding: 12px 8px;
+}
+.popup-content-top {
+  display: flex;
+  align-items: center;
+}
+.popup-content-bottom span {
+  border: 1px solid grey;
+  padding: 1px;
+  margin-right: 4px;
+}
+.container {
+  position: relative;
+}
+.popup-content .search-icon {
+  position: absolute;
+  left: 30px;
+}
+.popup-content input[type="text"] {
+  padding-left: 30px;
+}
+.popup-content .delete-icon {
+  position: absolute;
+  right: 30px;
+}
+.popup-content .filter-icon {
+  position: absolute;
+  right: 54px;
+}
